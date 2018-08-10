@@ -1,0 +1,40 @@
+<!--SideNav-->
+<ion-menu side="left" [content]="content" persistent="true">
+  <ion-header>
+    <ion-toolbar color="blanco">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-col width-67>
+      <!-- <img src="{{usuarioAps.UrlImagen}}" style="max-width: 97%;"/>-->
+      <!-- <h2  text-wrap>{{usuarioAps.Nombres + ' ' + usuarioAps.ApellidoPaterno + ' ' + usuarioAps.ApellidoMaterno}}</h2>-->
+      <h2 text-wrap>nombre completo</h2>
+    </ion-col>
+    <div class="position-menu-bottom border-superior-menu-bottom">
+      <ion-row *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-list ion-item style="padding: 0; margin: 0; padding-left: 10px;">
+          <button menu-toggle style="background-color: transparent; width: 100%; text-align: left;">
+            <ion-icon name={{p.icon}} style="padding-right:5px;"></ion-icon>
+            {{p.title}}
+          </button>
+        </ion-list>
+      </ion-row>ar
+    </div>
+  </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content swipeBackEnabled="true"></ion-nav>
+<!--Fin SideNav-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p>
+</ion-content>

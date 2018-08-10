@@ -1,0 +1,217 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.img-50 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+  max-width: 50%;
+}
+
+.img-100 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.imagenes-muro {
+  border-color: darkgray;
+  border-style: solid;
+}
+
+.fg-teal-500 {
+  color: #009688;
+}
+
+.fg-teal-100 {
+  color: #B2DFDB;
+}
+
+.fg-teal-200 {
+  color: #80CBC4;
+}
+
+.fg-teal-300 {
+  color: #4DB6AC;
+}
+
+.fg-teal-400 {
+  color: #26A69A;
+}
+
+.fg-teal-600 {
+  color: #00897B;
+}
+
+.fg-teal-700 {
+  color: #00796B;
+}
+
+.fg-teal-800 {
+  color: #00695C;
+}
+
+.fg-teal-900 {
+  color: #004D40;
+}
+
+.fg-teal-A100 {
+  color: #A7FFEB;
+}
+
+.fg-teal-A200 {
+  color: #64FFDA;
+}
+
+.fg-teal-A400 {
+  color: #1DE9B6;
+}
+
+.fg-teal-A700 {
+  color: #00BFA5;
+}
+//red
+.fg-red-50 {
+  color: #FFEBEE;
+}
+
+.fg-red-100 {
+  color: #FFCDD2;
+}
+
+.fg-red-200 {
+  color: #EF9A9A;
+}
+
+.fg-red-300 {
+  color: #E57373;
+}
+
+.fg-red-400 {
+  color: #EF5350;
+}
+
+.fg-red-500 {
+  color: #F44336;
+}
+
+.bg-teal-500 {
+  background-color: #009688;
+}
+
+.bg-teal-100 {
+  background-color: #B2DFDB;
+}
+
+.bg-teal-200 {
+  background-color: #80CBC4;
+}
+
+.bg-teal-300 {
+  background-color: #4DB6AC;
+}
+
+.bg-teal-400 {
+  background-color: #26A69A;
+}
+
+.bg-teal-600 {
+  background-color: #00897B;
+}
+
+.bg-teal-700 {
+  background-color: #00796B;
+}
+
+.bg-teal-800 {
+  background-color: #00695C;
+}
+
+.bg-teal-900 {
+  background-color: #004D40;
+}
+
+.bg-teal-A100 {
+  background-color: #A7FFEB;
+}
+
+.bg-teal-A200 {
+  background-color: #64FFDA;
+}
+
+.bg-teal-A400 {
+  background-color: #1DE9B6;
+}
+
+.bg-teal-A700 {
+  background-color: #00BFA5;
+}
+//red
+.bg-red-50 {
+  background-color: #FFEBEE;
+}
+
+.bg-red-100 {
+  background-color: #FFCDD2;
+}
+
+.bg-red-200 {
+  background-color: #EF9A9A;
+}
+
+.bg-red-300 {
+  background-color: #E57373;
+}
+
+.bg-red-400 {
+  background-color: #EF5350;
+}
+
+.bg-red-500 {
+  background-color: #F44336;
+}
+
+.color-fixed {
+  background-color: #F66C62;
+}
+
+.bg-transparente {
+  background: transparent;
+}
+
+ion-app.md [padding] .scroll-content {
+  padding: 0;
+}
+
+.fg-blanco {
+  color: white;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: transparent;
+  background-image: none;
+  color: white;
+}
+
+.btn-color {
+  background-color: #B71C1C;
+}
